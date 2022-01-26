@@ -1,8 +1,12 @@
 import './App.css';
-import logo from './logo.svg';
+/** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react';
+import NavBar from './NavBar';
 
-function App() {
-  return <div className="App">hello</div>;
+export default function App() {
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }
-
-export default App;

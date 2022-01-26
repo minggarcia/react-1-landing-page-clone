@@ -1,0 +1,139 @@
+import './App.css';
+// /** @jsxImportSource @emotion/react */
+// import { css } from '@emotion/react';
+// import { ReactComponent as DiscordLogo } from './images/discord.svg';
+// import { ReactComponent as HomeHeros } from './images/home-hero.svg';
+// import { ReactComponent as LogoIcon } from './images/logo.svg';
+// import { ReactComponent as OpenSea } from './images/opensea.svg';
+// import { ReactComponent as TwitterLogo } from './images/twitter.svg';
+// import NavBar from './NavBar';
+
+// const logoIconStyle = css`
+//   margin-left: auto;
+//   margin-right: auto;
+// `;
+// const headerStyle = css`
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   margin-top: 20px;
+//   margin-bottom: 20px;
+//   line-height: 24px;
+//   margin-left: 30px;
+//   margin-right: 30px;
+// `;
+
+// const socialButtonStyle = css`
+//   border: none;
+//   background: none;
+//   color: none;
+//   cursor: pointer;
+// `;
+
+// const walletButtonStyle = css`
+//   background-image: url(https://www.theweirdosnft.com/images/btn-wallet.svg);
+//   height: 60px;
+//   display: inline-block;
+//   cursor: pointer;
+//   background-color: transparent;
+//   border: none;
+//   width: 172px;
+
+//   :hover {
+//     --tw-scale-x: 1.1;
+//     --tw-scale-y: 1.1;
+//   }
+// `;
+
+// const walletButtonTextStyle = css`
+//   color: #ffe14b;
+//   font-family: Irregardless, Arial, sans-serif;
+//   font-style: normal;
+//   font-size: 20px;
+//   letter-spacing: 0.04em;
+//   text-align: center;
+//   display: block;
+//   margin-block-start: 1em;
+//   margin-block-end: 1em;
+//   margin-inline-start: 0px;
+//   margin-inline-end: 0px;
+// `;
+
+// const notCultStyle = css`
+//   margin-top: 30px;
+//   margin-bottom: 30px;
+//   font-style: italic;
+//   font-weight: 700;
+//   line-height: 100%;
+//   letter-spacing: 0.01em;
+//   font-size: 50px;
+//   text-align: center;
+//   margin-left: 2rem;
+//   margin-right: 2rem;
+//   display: block;
+//   font-family: Irregardless, Arial, sans-serif;
+// `;
+
+// const joinGangButton = css`
+//   color: #ffe14b;
+//   padding-top: 10px;
+//   padding-right: 30px;
+//   padding-left: 30px;
+//   background-image: url(https://www.theweirdosnft.com/images/btn-wallet.svg);
+//   justify-content: center;
+//   cursor: pointer;
+//   background-color: transparent;
+//   border: none;
+//   height: 60px;
+//   width: 172px;
+//   display: flex;
+//   align-self: center;
+// `;
+// const cultText = css`
+//   text-decoration-line: line-through;
+// `;
+
+// function App() {
+//   return (
+//     <div>
+//       <header css={headerStyle}>
+//         <div>
+//           <button css={socialButtonStyle}>
+//             <OpenSea />
+//           </button>
+//           <button css={socialButtonStyle}>
+//             <DiscordLogo />
+//           </button>
+//           <button css={socialButtonStyle}>
+//             <TwitterLogo />
+//           </button>
+//         </div>
+//         <div>
+//           <LogoIcon css={logoIconStyle} />
+//         </div>
+//         <div>
+//           <button css={walletButtonStyle}>
+//             <p css={walletButtonTextStyle}>Connect Wallet</p>
+//           </button>
+//         </div>
+//       </header>
+//       <NavBar />
+
+//       <div>
+//         <h2 css={notCultStyle}>IT'S DEFINITELY NOT A CULT</h2>
+//       </div>
+//       <div>
+//         <button css={joinGangButton}>
+//           <p>
+//             Join the <span css={cultText}>cult</span> gang
+//           </p>
+//         </button>
+//         <div>
+//           <HomeHeros />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default App;
