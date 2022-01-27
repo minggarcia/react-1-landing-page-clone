@@ -19,6 +19,16 @@ ReactDOM.render(
         ::before {
           box-sizing: border-box;
         }
+        ::-webkit-scrollbar {
+          width: 15px;
+          height: 10px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #efe9db;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #e4decc;
+        }
       `}
     />
     <App />

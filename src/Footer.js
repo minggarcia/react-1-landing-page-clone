@@ -1,6 +1,7 @@
 import './App.css';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import { ReactComponent as LogoOutLine } from './images/logo_outline.svg';
 
 const footerStyle = css`
   display: grid;
@@ -19,17 +20,23 @@ const gridStyle = css`
   font-weight: 600;
   line-height: 180%;
 `;
+
+const wobokaLine = css`
+  line-height: 150%;
+  margin-left: 30px;
+`;
 export default function Footer() {
   return (
     <div>
       <footer>
         <div css={footerStyle}>
-          <div>
+          <div css={wobokaLine}>
+            <LogoOutLine
+              style={{ width: '30px', height: '30px', cursor: 'pointer' }}
+            />{' '}
             Wobaka <br />
-            Made in Sweden <br />
-            The CRM that makes you smile, since 2019
-            <br />
-            Follow along on our{' '}
+            Made in Sweden The CRM that makes you smile, since 2019 Follow along
+            on our{' '}
             <span style={{ fontWeight: 'bold', cursor: 'pointer' }}>blog</span>
           </div>
 

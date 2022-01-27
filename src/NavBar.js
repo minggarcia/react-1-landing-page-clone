@@ -3,6 +3,61 @@ import './App.css';
 import { css } from '@emotion/react';
 import { ReactComponent as LogoOutLine } from './images/logo_outline.svg';
 
+const toggleButton = css`
+  label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    :checked {
+      background-color: #2196f3;
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+    :focus {
+      box-shadow: 0 0 1px #2196f3;
+    }
+    :checked {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+  }
+  span {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #efe9db;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+    ::before {
+      position: absolute;
+      content: '';
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: #d4c7a9;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      border-radius: 50%;
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+  }
+`;
+
 const navBarStyle = css`
   height: 70px;
   width: 90%;
@@ -59,6 +114,12 @@ export default function NavBar() {
         />
 
         <div css={navBarLinksStyle}>
+          <div css={toggleButton}>
+            <label>
+              <input type="checkbox" />
+              <span />
+            </label>
+          </div>
           <div>How it works</div>
           <div>Pricing</div>
           <div>Log In</div>

@@ -30,18 +30,18 @@ const infoStyle = css`
 `;
 
 const trialButton = css`
+  display: grid;
   align-items: center;
   justify-content: center;
-  display: block;
+  justify-items: center;
   text-align: center;
-  margin-left: 600px;
-  margin-right: 50px;
+  margin: 0 580px;
   color: white;
   background: #314252;
   padding: 20px 40px;
   font-weight: 700;
   font-size: 22px;
-
+  cursor: pointer;
   border-radius: 5px;
   border: transparent;
   border-bottom: 5px solid #273542;
