@@ -47,6 +47,7 @@ const getStartedButton = css`
   align-items: center;
   font-size: 16px;
   height: 50px;
+  cursor: pointer;
 `;
 
 export default function NavBar() {
